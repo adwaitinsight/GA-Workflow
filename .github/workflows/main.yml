@@ -1,4 +1,3 @@
-name: file1
 on: [push]
 jobs:
   display_files:
@@ -8,4 +7,4 @@ jobs:
     - name: display output
       run: |
        echo "Hello World"
-      shell: bash
+      # shell: bash
